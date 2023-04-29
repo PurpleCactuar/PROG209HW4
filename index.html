@@ -1,25 +1,26 @@
-/*basic HTML file*/
+/*feel free to change*/
 
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
- <meta charset="utf-8">
- <meta name="viewport" content="width=device-width">
-    <title>PROG209HW4</title>
+	<title>Calorie Tracker</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-<h2>Calories</h2>
-
-<button type="button" id="button1">Button</button>
-<div>
-    <input type="text" val="starting value" text="hello" id="textbox1">
-</div>
-
-<script src="script.js"></script>
-
-
+	<h1>Calorie Tracker</h1>
+	<form>
+		<label for="foodName">Food Name:</label>
+		<input type="text" id="foodName">
+      <br>
+      <br>
+		<label for="calories">Calories:</label>
+		<input type="number" id="calories">
+      <br>
+      <br>
+		<input type="submit" value="Add">
+	</form>
+	<div id="totalCalories"></div>
+	<div id="foodList"></div>
+	<script src="script.js"></script>
 </body>
 </html>
-
