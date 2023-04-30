@@ -1,12 +1,10 @@
 /*Javascript*/
 document.addEventListener("DOMContentLoaded", function (event) {
-document.getElementById("addCalories").addEventListener("click", function () {
-
-	console.log(foodArray);
-	
-const form = document.querySelector('form');
-const foodNameInput = document.querySelector('#foodName');
-const caloriesInput = document.querySelector('#calories');
-const totalCaloriesOutput = document.querySelector('#totalCalories');
-const foodListOutput = document.querySelector('#foodList');
-	    
+    document.getElementById("addCalories").addEventListener("click", function () {
+        console.log(foodArray);
+        { }
+        const form = document.getElementById('form');
+        const foodNameInput = document.getElementById('foodName');
+        const caloriesInput = document.getElementById('calories');
+        const totalCaloriesOutput = document.getElementById('totalCalories');
+        const foodListOutput = document.getElementById('foodList');	    
