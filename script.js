@@ -1,22 +1,12 @@
 /*Javascript*/
 document.addEventListener("DOMContentLoaded", function (event) {
-    document.getElementById("addCalories").addEventListener("click", function () {
-        console.log(foodArray);
+document.getElementById("addCalories").addEventListener("click", function () {
 
-
-        let foodArray = [
-	{
-		name: 'Banana',
-		calories: 105
-	},
-	{
-		name: 'Hot Dog',
-		calories: 565
-	}
-];
-
+	console.log(foodArray);
+	
 const form = document.querySelector('form');
 const foodNameInput = document.querySelector('#foodName');
 const caloriesInput = document.querySelector('#calories');
 const totalCaloriesOutput = document.querySelector('#totalCalories');
 const foodListOutput = document.querySelector('#foodList');
+	    
